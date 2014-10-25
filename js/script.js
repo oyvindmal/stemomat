@@ -1,12 +1,15 @@
 $(document).ready( function () {
-	var random = Math.floor((Math.random() * 2) + 1);
+	var random = Math.floor(Math.random() * 100);
 	var desicion = "";
-	if(random === 1) {
+	if((random  >= 0) && (random <= 44)) {
 		desicion = "FOR";
 	}
-
-	else {
+	else if((random >= 45) && (random <=90)) {
 		desicion = "MOT";
+	}
+	else if(random >= 91) {
+		desicion = "AVHOLDENDE";
 	}
 	$("#result").html(desicion);
 });
+
