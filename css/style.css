@@ -5,6 +5,7 @@ body {
 }
 
 #stemmomat {
+    font-family: 'Open Sans', sans-serif;
 	color :#fff;
 	background: #000;
 	margin:0 auto;
@@ -14,3 +15,7 @@ body {
 border-radius: 20px;	
 }
 
+#result {
+    font-weight: bold;
+    font-size: 200%;
+}
