@@ -1,3 +1,3 @@
 $(document).ready( function () {
-	$("#heading").html("A little bit more here now");
+	var random = Math.floor((Math.random() * 2) + 1);;
 });
