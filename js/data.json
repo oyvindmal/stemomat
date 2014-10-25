@@ -1,0 +1,19 @@
+[
+    {
+        "text" : "FOR",
+        "vekt" : 50
+    },
+    {
+        "text" : "MOT",
+        "vekt" : 50
+    },
+    {
+        "text" : "AVHOLDENDE",
+        "vekt" : 20
+    },
+      {
+        "text" : "IKKE, men gir ordstyrer Inge en klem",
+        "vekt" : 5
+    }
+
+]
