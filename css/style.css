@@ -1,7 +1,7 @@
 body {
 	background: #C0FFEE;
 	margin: 0;
-	padding:0;    
+	padding:0;
 }
 
 #stemmomat {
@@ -12,7 +12,7 @@ body {
 	padding:5px 5px 10px 15px;
 	-webkit-border-radius: 20px;
 -moz-border-radius: 20px;
-border-radius: 20px;	
+border-radius: 20px;
 }
 
 #result {
@@ -21,4 +21,11 @@ border-radius: 20px;
     animation-duration: 1s;
     font-weight: bold;
     font-size: 400%;
+}
+
+
+#btnStart {
+	padding:15px;
+	background: hotpink;
+	border: 1px lime solid;
 }
