@@ -6,10 +6,10 @@ var http = require('http').Server(app);
 app.use('/js', express.static('js'));
 app.use('/css', express.static('css'));
 
-/*app.get('/', function(req, res) {
+app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
-});*/
+});
 
-app.get('/', function (req, res) {
-  res.send('Hello World!');
+http.listen(port, function(){
+    console.log('listening on *:3000');
 });
